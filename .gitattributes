@@ -1,0 +1,2 @@
+# Preserve standard CSV line endings and historical raw bytes.
+*.csv -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol

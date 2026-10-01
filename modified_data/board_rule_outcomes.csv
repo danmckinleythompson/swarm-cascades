@@ -1,0 +1,9 @@
+arm,label,n_runs,n_agents,n_scenarios,n_correct,n_undecided,n_wrong,share_correct,share_undecided,share_wrong,decision_rule
+no_board,No board,5,30,1,2,3,0,0.4,0.6,0.0,At least 20 of all 30 agents agree
+verbatim_audit,Verbatim-quote audit,5,30,1,4,1,0,0.8,0.2,0.0,At least 20 of all 30 agents agree
+outcome_tallies,Outcome tallies,5,30,1,2,2,1,0.4,0.4,0.2,At least 20 of all 30 agents agree
+skeptic_quota,Skeptic quota,5,30,1,2,2,1,0.4,0.4,0.2,At least 20 of all 30 agents agree
+hierarchy,Coordinator digest,5,30,1,2,3,0,0.4,0.6,0.0,At least 20 of all 30 agents agree
+skeptic_triggered,Triggered skepticism,5,30,1,1,0,4,0.2,0.0,0.8,At least 20 of all 30 agents agree
+provenance_claims,Provenance tags,5,30,1,0,0,5,0.0,0.0,1.0,At least 20 of all 30 agents agree
+baseline,Free-form board,5,30,1,0,0,5,0.0,0.0,1.0,At least 20 of all 30 agents agree

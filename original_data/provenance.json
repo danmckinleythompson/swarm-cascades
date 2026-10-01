@@ -1,0 +1,62 @@
+{
+  "source_repository": "https://github.com/andybhall/swarm-governance",
+  "original_and_baseline_source_commit": "cea4017edefa1106e2662dbb445d4ec9813c0ca4",
+  "recent_source": "Completed local collections, September 29\u201330, 2026; exact source file hashes below.",
+  "method": "Selected complete grader swarms. Each retained decompressed JSONL line is byte-identical to its source line; only gzip packaging changes.",
+  "files": [
+    {
+      "file": "grader_original.jsonl.gz",
+      "source_file": "runs_records.jsonl.gz",
+      "source_sha256": "4836609b75611a393a1d192895590c03cef0d992b4f3a2f66be261aa1b50cd7c",
+      "sha256": "0cffc0b3113f4558a10461a1033c27b22e2f7f775464c93f949137dd777101e3",
+      "records": 6480,
+      "swarms": 216,
+      "selection": "scenario == grader; N == 30; spoke in {gov, model}"
+    },
+    {
+      "file": "grader_baseline_initial.jsonl.gz",
+      "source_file": "runs_flip.jsonl.gz",
+      "source_sha256": "0475ab7a75a8e1649e7937ab6a024fcfd6a32a291331edd5246850be6182432d",
+      "sha256": "4e3e1ec2f56ef2836b6b559ab53cf62d65799683a77ac0ec25c70eb3ebe78ad6",
+      "records": 600,
+      "swarms": 20,
+      "selection": "scenario == grader; N == 30; path == adverse; arm in {no_board, baseline}"
+    },
+    {
+      "file": "grader_baseline_expansion.jsonl.gz",
+      "source_file": "runs_flip_expansion.jsonl.gz",
+      "source_sha256": "f27d70c0cd31b5a36e963ba54d600652a21fb39e15b698bf22844e917b0b48d5",
+      "sha256": "9eecfce7faa2bc1d42b47805c819a3068a6fc9898a821dceccf54efadf876970",
+      "records": 1800,
+      "swarms": 60,
+      "selection": "scenario == grader; N == 30; path == adverse; arm in {no_board, baseline}"
+    },
+    {
+      "file": "grader_final_five_pay.jsonl.gz",
+      "source_file": "runs_grader_final_five_pay.jsonl.gz",
+      "source_sha256": "ee607ed155bfbd8d0416549f69191fb5c93928288a49de5c8938f288c07f4325",
+      "sha256": "ee607ed155bfbd8d0416549f69191fb5c93928288a49de5c8938f288c07f4325",
+      "records": 1200,
+      "swarms": 40,
+      "selection": "scenario == grader; N == 30; all source records"
+    },
+    {
+      "file": "grader_final_five_information.jsonl.gz",
+      "source_file": "runs_grader_final_five_information.jsonl.gz",
+      "source_sha256": "f3b7680aa6033d549537861639dc4b63150e25b655f3a5f99241636630e55ab5",
+      "sha256": "f3b7680aa6033d549537861639dc4b63150e25b655f3a5f99241636630e55ab5",
+      "records": 1200,
+      "swarms": 40,
+      "selection": "scenario == grader; N == 30; all source records"
+    },
+    {
+      "file": "grader_verbatim_expansion.jsonl.gz",
+      "source_file": "runs_grader_verbatim_expansion.jsonl.gz",
+      "source_sha256": "890d168f9d7a2ded438d1f6684b0d75a0dba49b33b5f13f35443fec0bac92091",
+      "sha256": "890d168f9d7a2ded438d1f6684b0d75a0dba49b33b5f13f35443fec0bac92091",
+      "records": 1050,
+      "swarms": 35,
+      "selection": "scenario == grader; N == 30; all source records"
+    }
+  ]
+}
