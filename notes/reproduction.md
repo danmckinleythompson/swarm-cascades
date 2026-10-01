@@ -8,12 +8,12 @@ Every selected raw JSONL line is preserved byte-for-byte from the source logs; g
 
 The master rebuilds three numerical figures, original grader model/rule summaries, the three extension comparisons, full worker-0 prompts, and the example board/rationales. The original master archive remains in the source repository; this package does not collect fresh model responses. New calls would be a new realization, not a reproduction of saved responses.
 
-## Changes needed when making the post grader-only
+## Differences from the published post
 
-- The live document's governance chart pools five runs in each of four scenarios. The replacement here uses **five original grader runs per rule**. Its percentages therefore differ; the additional 35 grader audit runs appear in the separate 40-run extension comparison, not in the balanced original-rule chart.
-- The live overview image also says “four tasks / 20 groups per rule.” It is excluded. Three purely grader illustrations remain.
-- Cross-model conclusions must use the grader-only table. Gemini worsens with a board in these grader runs. GPT-5 mini already has false consensus in all five original adverse no-board runs. The draft's pooled “Gemini exception” does not describe this subgroup. Small cell sizes—especially two original Opus runs per arm/path—limit precision.
-- The draft's rationale-citation percentages were computed with model-coded extraction logs that have not been recovered. Saved pooled summaries cannot substitute for grader-only estimates. We therefore include neither those pooled tables nor a claimed reproduced percentage. Needed files in the research archive are `extraction_gemini.jsonl` and `extraction_sonnet.jsonl`.
+- The [published post](https://freesystems.substack.com/p/extraordinary-multi-agent-delusions)'s governance chart pools five runs in each of four scenarios. The grader-only counterpart here uses **five original grader runs per rule**. Its percentages therefore differ; the additional 35 grader audit runs appear in the separate 40-run extension comparison, not in the balanced original-rule chart.
+- The post's overview image also says “four tasks / 20 groups per rule.” It is excluded. Three purely grader illustrations remain.
+- Cross-model conclusions must use the grader-only table. Gemini worsens with a board in these grader runs. GPT-5 mini already has false consensus in all five original adverse no-board runs. The post's pooled “Gemini exception” does not describe this subgroup. Small cell sizes—especially two original Opus runs per arm/path—limit precision.
+- The post's rationale-citation percentages were computed with model-coded extraction logs that have not been recovered. Saved pooled summaries cannot substitute for grader-only estimates. We therefore include neither those pooled tables nor a claimed reproduced percentage. Needed files in the research archive are `extraction_gemini.jsonl` and `extraction_sonnet.jsonl`.
 - The broad Bayesian-behavior claim is not established by these plots or examples. Private commitments are not identical to public posts, and comparisons depend on priors, the observation model, and whether an observer knows the adverse prefix was forced. No generic claim of irrational Bayesian updating is reproduced here.
 
 ## Design qualifications

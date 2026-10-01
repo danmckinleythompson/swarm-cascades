@@ -1,6 +1,6 @@
 # Grader illustrations
 
-These three assets are exact exports from the Google Doc, checked September 30–October 1, 2026. Their original artwork generators were not available. `code/extract_blog_examples.py` regenerates [their source text](../../modified_data/blog_illustration_sources.md) from the included logs.
+These three assets are exact exports from the authoring document for [the Free Systems post](https://freesystems.substack.com/p/extraordinary-multi-agent-delusions), checked September 30–October 1, 2026. Their original artwork generators were not available. `code/extract_blog_examples.py` regenerates [their source text](../../modified_data/blog_illustration_sources.md) from the included logs.
 
 | Asset | Source |
 | --- | --- |
