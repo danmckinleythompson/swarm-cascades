@@ -1,6 +1,6 @@
 # Swarm cascades
 
-A reproduction package for the **TaskBench grader experiment** in [Extraordinary Multi-Agent Delusions and the Madness of Crowds](https://freesystems.substack.com/p/extraordinary-multi-agent-delusions), published on **Free Systems**, plus the recent reward-prompt and quote-audit extensions. In every included run, the grader checks **output only**; `reads_transcript` is the false belief. No other scenarios or reversed-truth runs are included.
+A reproduction package for the **TaskBench grader experiment** in [Extraordinary Multi-Agent Delusions and the Madness of Crowds](https://freesystems.substack.com/p/extraordinary-multi-agent-delusions), published on **Free Systems**, plus the recent reward-prompt and quote-audit extensions.
 
 ## Included experiments
 
