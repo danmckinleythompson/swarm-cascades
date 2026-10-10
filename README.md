@@ -41,6 +41,8 @@ The package also retains the expanded Haiku board/no-board comparison (**40 swar
 
 ## Figures
 
+The latest presentation version of the four-condition extension comparison is [this formatted PNG](draft/grader_beliefs_by_position_information_relabelled.png). It has the revised labels and label positions, no source attribution, and the note “Experiment run in September 2026.” This is the single active relabelled version. It was edited with an image tool; its [edit record](draft/grader_beliefs_by_position_information_relabelled.prompt.txt) is included. The generator below rebuilds the underlying numerical chart, rather than this presentation export.
+
 | Figure | Data and scope | Code |
 | --- | --- | --- |
 | [Shared board vs. no board](draft/grader_beliefs_by_position.png) | Haiku, 30 agents, first four signals misleading; **40 runs each**. Reproduces the post's position-plot estimates. | [Generator](code/make_grader_beliefs_by_position.py) |

@@ -1,0 +1,12 @@
+Method: built-in image_gen image-editing tool.
+Active version: grader_beliefs_by_position_information_relabelled.png
+Final requested layout: green and blue labels halfway between their initial positions and v2; source attribution and individual condition dates removed. Footnote: Bands: pointwise 95% Wilson intervals. Experiment run in September 2026.
+
+Final image-edit prompt:
+Use case: text-localization.
+Edit only the small gray footnote near the lower left of this chart, above the footer rule.
+Replace the exact words "Collected in 2026." with the exact words "Experiment run in September 2026."
+The full single-line footnote must now read exactly:
+"Bands: pointwise 95% Wilson intervals. Experiment run in September 2026."
+Keep the same gray color, font, size, left alignment and baseline for the footnote. Keep it on one line.
+All remaining image content is locked and must be unchanged. Specifically preserve the current green and blue label positions, all four labels' exact wording and colors, every data curve and confidence band, title and subtitle, axes, gridlines, ticks, annotation, footer rule, logos, and web address. Do not resize, crop, shift, redraw, or reinterpret the chart. Only replace this short date phrase.
