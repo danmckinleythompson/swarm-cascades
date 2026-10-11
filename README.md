@@ -2,6 +2,18 @@
 
 A reproduction package for the **TaskBench grader experiment** in [Extraordinary Multi-Agent Delusions and the Madness of Crowds](https://freesystems.substack.com/p/extraordinary-multi-agent-delusions), published on **Free Systems**, plus the recent reward-prompt and quote-audit extensions.
 
+## Which repository to use
+
+This is the current repository for the grader post, recent grader extensions, and final presentation figures. Add future updates to this package here.
+
+| Repository | Role |
+| --- | --- |
+| [swarm-cascades](https://github.com/danmckinleythompson/swarm-cascades) | Current grader publication package and extensions. |
+| [Andy's swarm-governance](https://github.com/andybhall/swarm-governance) | Broader research, including other scenarios, flipped experiments, and ongoing research branches. |
+| [Dan's old swarm-governance fork](https://github.com/danmckinleythompson/swarm-governance) | Archived development history; its earlier branches and distinct files are preserved. |
+
+The original grader data intentionally appear in both the broad research repository and this focused package. New grader-post results and figures belong here; the archived fork should receive no new work.
+
 ## Included experiments
 
 ### Grader experiment across models
