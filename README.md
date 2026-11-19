@@ -86,3 +86,7 @@ The six compressed logs contain **12,330 decisions in 411 distinct 30-agent swar
 See [grader-only findings](notes/grader-findings.md) and [reproduction limits](notes/reproduction.md) before transferring claims from pooled experiments. The grader-only model results differ from the post's cross-scenario wording, and missing judge-extraction logs prevent reproducing its rationale-citation prevalence claim. No pooled mechanism summaries are included.
 
 Source research: [andybhall/swarm-governance](https://github.com/andybhall/swarm-governance), original and baseline data at `cea4017edefa1106e2662dbb445d4ec9813c0ca4`; extensions collected September 29–30, 2026. This repo is the focused publication package, not a replacement for the research archive.
+
+## License
+
+Licensed under the [Apache License, Version 2.0](LICENSE).
